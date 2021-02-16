@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+  
+<suite name="RestAssuredAutomation_TestSuite" verbose="1" >
+<listeners>
+      <listener class-name="com.RestAssured_AutomationFramework_utilities.Listener"></listener>
+</listeners>
+  <test name="RestAssuredAutomation" >
+    <classes>
+      <class name="com.RestAssured_AutomationFramework_testcases.TC_01_GETRequest_AllEmployees"/>
+      <class name="com.RestAssured_AutomationFramework_testcases.TC_02_GETRequest_SingleEmployee"/>
+      <class name="com.RestAssured_AutomationFramework_testcases.TC_03_POSTRequest_EmployeeRecords"/>
+      <class name="com.RestAssured_AutomationFramework_testcases.TC_04_DELETERequest_EmployeeRecords"/>
+      <class name="com.RestAssured_AutomationFramework_testcases.TC_05_PUTRequest_EmployeeRecords"/>
+    </classes>
+  </test>
+</suite>

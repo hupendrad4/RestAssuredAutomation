@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [RestAssuredAutomation_TestSuite]">
+  <test thread-count="5" name="RestAssuredAutomation(failed)">
+    <classes>
+      <class name="com.RestAssured_AutomationFramework_testcases.TC_01_GETRequest_AllEmployees">
+        <methods>
+          <include name="checkStatusCode"/>
+          <include name="setUp"/>
+          <include name="checkContentType"/>
+          <include name="checkContentEncoding"/>
+          <include name="checkStatusLine"/>
+          <include name="getAllEmp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.RestAssured_AutomationFramework_testcases.TC_01_GETRequest_AllEmployees -->
+      <class name="com.RestAssured_AutomationFramework_testcases.TC_04_DELETERequest_EmployeeRecords">
+        <methods>
+          <include name="setUp"/>
+          <include name="create_Employee"/>
+          <include name="checkContentEncodingType"/>
+        </methods>
+      </class> <!-- com.RestAssured_AutomationFramework_testcases.TC_04_DELETERequest_EmployeeRecords -->
+      <class name="com.RestAssured_AutomationFramework_testcases.TC_05_PUTRequest_EmployeeRecords">
+        <methods>
+          <include name="setUp"/>
+          <include name="checkContentEncodingType"/>
+          <include name="create_Employee"/>
+        </methods>
+      </class> <!-- com.RestAssured_AutomationFramework_testcases.TC_05_PUTRequest_EmployeeRecords -->
+      <class name="com.RestAssured_AutomationFramework_testcases.TC_02_GETRequest_SingleEmployee">
+        <methods>
+          <include name="setUp"/>
+          <include name="getAllEmp"/>
+          <include name="checkContentEncoding"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.RestAssured_AutomationFramework_testcases.TC_02_GETRequest_SingleEmployee -->
+      <class name="com.RestAssured_AutomationFramework_testcases.TC_03_POSTRequest_EmployeeRecords">
+        <methods>
+          <include name="setUp"/>
+          <include name="create_Employee"/>
+          <include name="checkContentEncodingType"/>
+        </methods>
+      </class> <!-- com.RestAssured_AutomationFramework_testcases.TC_03_POSTRequest_EmployeeRecords -->
+    </classes>
+  </test> <!-- RestAssuredAutomation(failed) -->
+</suite> <!-- Failed suite [RestAssuredAutomation_TestSuite] -->

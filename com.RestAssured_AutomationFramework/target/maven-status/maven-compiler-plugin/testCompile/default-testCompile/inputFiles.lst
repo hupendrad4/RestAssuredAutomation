@@ -1,0 +1,9 @@
+C:\Users\HDeore\OtherProjects\com.RestAssured_AutomationFramework\src\test\java\com\RestAssured_AutomationFramework_baseclass\Testbase.java
+C:\Users\HDeore\OtherProjects\com.RestAssured_AutomationFramework\src\test\java\com\RestAssured_AutomationFramework_utilities\Listener.java
+C:\Users\HDeore\OtherProjects\com.RestAssured_AutomationFramework\src\test\java\com\RestAssured_AutomationFramework_testcases\TC_01_GETRequest_AllEmployees.java
+C:\Users\HDeore\OtherProjects\com.RestAssured_AutomationFramework\src\test\java\com\RestAssured_AutomationFramework_testcases\TC_02_GETRequest_SingleEmployee.java
+C:\Users\HDeore\OtherProjects\com.RestAssured_AutomationFramework\src\test\java\com\RestAssured_AutomationFramework_testcases\TC_03_POSTRequest_EmployeeRecords.java
+C:\Users\HDeore\OtherProjects\com.RestAssured_AutomationFramework\src\test\java\com\RestAssured_AutomationFramework_utilities\ExtentHtmlReporter.java
+C:\Users\HDeore\OtherProjects\com.RestAssured_AutomationFramework\src\test\java\com\RestAssured_AutomationFramework_utilities\RestUtils.java
+C:\Users\HDeore\OtherProjects\com.RestAssured_AutomationFramework\src\test\java\com\RestAssured_AutomationFramework_testcases\TC_04_DELETERequest_EmployeeRecords.java
+C:\Users\HDeore\OtherProjects\com.RestAssured_AutomationFramework\src\test\java\com\RestAssured_AutomationFramework_testcases\TC_05_PUTRequest_EmployeeRecords.java
